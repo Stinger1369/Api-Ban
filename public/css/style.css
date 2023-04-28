@@ -1,0 +1,32 @@
+.ui-autocomplete {
+  z-index: 1000;
+  max-width: 90vw;
+  overflow-x: hidden;
+  overflow-y: auto;
+  border-radius: 2%;
+  cursor: pointer;
+}
+
+@media screen and (min-width: 576px) {
+  .ui-autocomplete {
+    max-width: 50vw;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .ui-autocomplete {
+    max-width: 40vw;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .ui-autocomplete {
+    max-width: 30vw;
+  }
+}
+
+@media screen and (min-width: 1200px) {
+  .ui-autocomplete {
+    max-width: 29.5%;
+  }
+}
